@@ -1,0 +1,53 @@
+.plane{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 90px;
+    height: 47px;
+    background-image: url(/plane.png);
+    background-size: cover;
+}
+.hide{
+    display: none;
+}
+.gameMessage{
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    width: 230px;
+    text-align: center;
+    background-color: rgb(141, 198, 248);
+    font-size: 2em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.score{
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 18px;
+}
+.base{
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 1em;
+}
+.bomb{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: black;
+    text-align:center;
+    font-size: 2em;
+}
